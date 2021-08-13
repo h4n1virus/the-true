@@ -1,8 +1,8 @@
-from sys import maxsize as __maxsize
-from sys import setrecursionlimit as __setrecursionlimit
-from random import randint as __randint
+from sys import maxsize
+from sys import setrecursionlimit
+from random import randint
 
-__setrecursionlimit(__maxsize)
+setrecursionlimit(1000000)
 
 class __THE_TRUE(object):
     @property
@@ -11,10 +11,10 @@ class __THE_TRUE(object):
 
     @property
     def __maximum_value(self):
-        return __maxsize
+        return maxsize
     
     def __random_number(self):
-        return __randint(self.__minimum_value, self.__maximum_value)
+        return randint(self.__minimum_value, self.__maximum_value)
 
     def __is_prime(self, number):
         for i in range(self.__minimum_value, number):
