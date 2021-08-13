@@ -1,8 +1,6 @@
 from sys import maxsize
-from sys import setrecursionlimit
 from random import randint
 
-setrecursionlimit(1000000)
 
 class __THE_TRUE(object):
     @property
