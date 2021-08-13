@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="the-true",
-    version="0.0.2",
+    version="0.0.3",
     author="Chisa Yomoda",
     author_email="mengele@schutzstaffel.agency",
     description="The True",
